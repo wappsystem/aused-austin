@@ -81,6 +81,8 @@
         "aused-70-form": { url: "$H/m/aused70-form.html", Table: "austin-astn-aused-70", task_name:"Aused 70 mins" },
         "aused-90-data": { url: "$H/m/aused90-data.html", Table: "austin-astn-aused-90", form_module: "aused-90-form", task_name:"Aused 90 mins" },
         "aused-90-form": { url: "$H/m/aused90-form.html", Table: "austin-astn-aused-90", task_name:"Aused 90 mins" },
+        "aused-60-data": { url: "$H/m/aused60-data.html", Table: "austin-astn-aused-60", form_module: "aused-60-form", task_name:"Aused 60 mins" },
+        "aused-60-form": { url: "$H/m/aused60-form.html", Table: "austin-astn-aused-60", task_name:"Aused 60 mins" },
 
     }
     for(p in modules){

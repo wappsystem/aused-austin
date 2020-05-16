@@ -145,7 +145,7 @@
 						//console.log(obstacle)
 						var side=180.0;
 						if(String.fromCharCode(hd.getInt8(startSide))=='L') side=-180.0;
-						var timestamps=(arrlength-startData)/38;
+						var timestamps=parseInt((arrlength-startData)/38);
 						var timingArr=[];
 						var positionArr=[];
 						var speedArr=[];
